@@ -4,5 +4,30 @@
     height: 500px;
 }
 .datosp{
-  color: #ffffff;
+    color: #ffffff;
+    text-decoration: blink;
+    font: small-caption;
+    font-size: 32px;
+    padding-left: 87px;
+}
+.estudio{
+    color: #ffffff;
+    text-decoration: blink;
+    font: small-caption;
+    font-size: 32px;
+    padding-left: 87px;
+}
+.Experiencias{
+    color: #ffffff;
+    text-decoration: blink;
+    font: small-caption;
+    font-size: 32px;
+    padding-left: 87px;
+}
+.Sobremi{
+    color: #ffffff;
+    text-decoration: blink;
+    font: small-caption;
+    font-size: 32px;
+    padding-left: 87px;
 }
