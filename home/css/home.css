@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:700);
 .home{
-  background: #000000;
+  background-image: "fondo.jpg"
 }
 .nombre{
   color: #ffffff;
