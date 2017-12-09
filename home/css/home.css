@@ -17,7 +17,7 @@ body div {
   pointer-events: none;
 }
 body #picture {
-  background-image: url("http://finda.photo/image/10216/thumbnail/original");
+  background-image: url("../home/img/fondo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
