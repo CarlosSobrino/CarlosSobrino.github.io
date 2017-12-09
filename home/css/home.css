@@ -3,30 +3,28 @@
     width: 1200px;
     height: 500px;
 }
-.datosp{
-    color: #ffffff;
-    text-decoration: blink;
-    font: small-caption;
-    font-size: 50px;
+.enlaces{
+  width: 1200px;
+  height: 500px;
 }
 .estudio{
     color: #ffffff;
     text-decoration: blink;
     font: small-caption;
-    font-size: 50px;
-    padding-left: 250px;
+    font-size: 35px;
+    padding-left: 0px;
 }
 .Experiencias{
     color: #ffffff;
     text-decoration: blink;
     font: small-caption;
-    font-size: 50px;
-    padding-left: 500px;
+    font-size: 35px;
+    padding-left: 400px;
 }
 .Sobremi{
     color: #ffffff;
     text-decoration: blink;
     font: small-caption;
-    font-size: 50px;
-    padding-left: 750px;
+    font-size: 35px;
+    padding-left: 800px;
 }
