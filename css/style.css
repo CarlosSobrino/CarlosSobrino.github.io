@@ -158,23 +158,37 @@ header p {
 	color: #0dad8d;
 	border-color: #fff;
 }
-/* Services Section */
-#services-section {
+/* tecnologias Section */
+#tecnologias-section {
 	padding: 50px 0;
 	background-color: #fff;
 }
-#services-section h4 {
+#tecnologias-section h4 {
 	font-weight: 700;
 }
 .space {
 	margin-top: 40px;
 }
-#services-section i.fa {
+#tecnologias-section i.fa {
 	font-size: 40px;
 	margin-bottom: 20px;
 	transition: all 0.5s;
 	color: #0dbf9b;
 }
+#skills-section {
+	padding: 50px 0;
+	background-color: #fff;
+}
+#skills-section h4 {
+	font-weight: 700;
+}
+#skills-section i.fa {
+	font-size: 40px;
+	margin-bottom: 20px;
+	transition: all 0.5s;
+	color: #0dbf9b;
+}
+
 /* Gallery Section 
 ==============================*/
 #works-section {
