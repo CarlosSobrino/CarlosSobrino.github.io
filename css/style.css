@@ -297,6 +297,7 @@ ol.type li a:hover {
 /* About Section */
 #about-section {
 	padding: 120px 0;
+	background: #c5c5c5;;
 }
 #about-section p {
 	margin-top: 20px;
@@ -352,7 +353,7 @@ img.img-circle.team-img {
 /* Contact Section */
 #contact-section {
 	padding: 120px 0 60px 0;
-	background-color: #f6f6f6;
+	background-color: #c5c5c5;;
 }
 #contact-section h3 {
 	font-size: 20px;
