@@ -509,26 +509,26 @@ label {
     border-radius: 10px;
 }
 .alto{
-	background-color: violet;
+	background-color: #000000;
     min-height: 35.5px;
     border-radius: 7px;
    	width: 80%;
 
 }
 .bajo{
-	background-color: violet;
+	background-color: #000000;
     min-height: 35.5px;
     border-radius: 7px;
     width: 28%;
 }
 .medio{
-	background-color: violet;
+	background-color: #000000;
     min-height: 35.5px;
     border-radius: 7px;
    	width: 50%;
 }
 .experto{
-	background-color: violet;
+	background-color: #000000;
     min-height: 35.5px;
     border-radius: 7px;
    	width: 100%;
