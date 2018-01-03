@@ -533,6 +533,11 @@ label {
     border-radius: 7px;
    	width: 100%;
 }
-.divhabilidades{
+.divhabilidades
+	column-count: 2;
+    text-align: center;
+
+}
+.habilidad{
 
 }
