@@ -489,17 +489,33 @@ label {
 	max-width: 100px;
 }
 .nivel100{
-
+	min-height: 40px;
+    max-height: 40px;
+    border-style: solid;
+    border-radius: 10px;
 }
 .alto{
+	background-color: violet;
+    min-height: 35.5px;
+    border-radius: 7px;
+   	width: 80%;
 
 }
 .bajo{
-
+	background-color: violet;
+    min-height: 35.5px;
+    border-radius: 7px;
+    width: 38%;
 }
 .medio{
-
+	background-color: violet;
+    min-height: 35.5px;
+    border-radius: 7px;
+   	width: 50%;
 }
 .experto{
-	
+	background-color: violet;
+    min-height: 35.5px;
+    border-radius: 7px;
+   	width: 100%;
 }
