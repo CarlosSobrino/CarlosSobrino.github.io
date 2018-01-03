@@ -14,7 +14,7 @@ h2 {
 	font-size: 50px;
 	font-weight: 700;
 	margin: 0;
-	color: #ffffff;
+	color: #000000;
 }
 h3 {
 	font-size: 16px;
@@ -67,7 +67,7 @@ hr {
 	width: 85%;
 	text-align: center;
 	position: relative;
-	background: #ffffff;
+	background: #000000;
 	border: 0;
 	margin: 10px auto 30px;
 }
