@@ -273,7 +273,7 @@
     <div class="section-title center">
       <h2>Contacto</h2>
       <hr>
-      <p style="font-size: 20px; text-align: center;">Para poder contactar conmigo rellene el siguiente formulario:</p>
+      <p style="font-size: 20px; text-align: justify">Para poder contactar conmigo rellene el siguiente formulario:</p>
     </div>
     <div class="col-md-8 col-md-offset-2">
       <div class="col-md-4"> <i class="fa fa-map-marker"></i>
@@ -290,10 +290,28 @@
     </div>
     <div class="col-md-8 col-md-offset-2">
       <h3>Rellene el formulario</h3>
-
-      <form name="frmContacto" method="post" action="mail/sendbyemail.php">
-		<table width="500px"> <tr> <td> <label for="first_name">Nombre: *</label> </td> <td> <input type="text" name="first_name" maxlength="50" size="25"> </td> </tr> <tr> <td valign="top""> <label for="last_name">Apellido: *</label> </td> <td> <input type="text" name="last_name" maxlength="50" size="25"> </td> </tr> <tr> <td> <label for="email">Dirección de E-mail: *</label> </td> <td> <input type="text" name="email" maxlength="80" size="35"> </td> </tr> <tr> <td> <label for="telephone">Número de teléfono:</label> </td> <td> <input type="text" name="telephone" maxlength="25" size="15"> </td> </tr> <tr> <td> <label for="comments">Comentarios: *</label> </td> <td> <textarea name="comments" maxlength="500" cols="30" rows="5"></textarea> </td> </tr> <tr> <td colspan="2" style="text-align:right"> <input type="submit" value="Enviar"> </td> </tr> </table> </form> <!-- Do not change the code! -->
-<!-- Do not change the code! -->
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default">Enviar</button>
+      </form>
     </div>
   </div>
 </div>
